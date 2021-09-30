@@ -1,0 +1,130 @@
+html {
+    position: relative;
+}
+
+body {
+    margin-top: 30px;
+    margin-bottom: 120px;
+}
+
+hr {
+    width: 250px;
+    border-top: 5px solid #999;
+}
+
+section {
+    min-height: 600px;
+}
+
+.photo {
+    background-color: #eee;
+}
+
+.thumbnail img {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.contact {
+    min-height: 800px;
+    background-color: #eee;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 120px;
+    bottom: 0;
+    background-color: #333;
+    padding-top: 30px;
+}
+
+footer p {
+    color: #aaa;
+    font-size: 1em;
+}
+
+footer p i {
+    color: salmon;
+}
+
+.carousel-caption {
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.carousel-caption h4 {
+    color: red;
+}
+
+.image-box {
+    position: relative;
+}
+
+.image-box .image-3 {
+    top: -37px;
+    left: 329px;
+    position: absolute;
+    transform: rotate(-17deg);
+    box-shadow: 0 0 black;
+}
+
+.image-box .image-4 {
+    top: -7px;
+    left: 310px;
+    position: absolute;
+    transform: rotate(-17deg);
+}
+
+.circle-bg {
+    position: relative;
+}
+
+.circle-bg img {
+    border-radius: 5px 5px 30px 5px;
+    width: 100%;
+}
+
+.about-detail ul li i {
+    background: #ec1111;
+    -webkit-background-clip: text;
+    color: transparent;
+    width: 30px;
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    border: 1px solid #ec1111;
+    border-radius: 50%;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.about-detail ul li {
+    font-size: 16px;
+    line-height: 2.4;
+    color: #2b2b2b;
+    font-weight: 600;
+}
+
+.cases {
+    background-image: url(../img/3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    min-height: 300px;
+}
+
+.single-counter {
+    margin-top: 40px;
+    margin-left: 60px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    align-items: center;
+}
+
+.count {
+    font-family: 'Sen', sans-serif;
+    font-size: 52px;
+}
